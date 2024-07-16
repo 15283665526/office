@@ -23,8 +23,8 @@
       return {
         logining: false,
         ruleForm2: {
-          account: '3',
-          checkPass: '3'
+          account: '123456789@qq.com',
+          checkPass: '123456'
         },
         rules2: {
           account: [
@@ -50,7 +50,7 @@
             //_this.$router.replace('/table');
             this.logining = true;
             //NProgress.start();
-            var loginParams = { userId: this.ruleForm2.account, pwd: this.ruleForm2.checkPass };
+            var loginParams = { userAccount: this.ruleForm2.account, pwd: this.ruleForm2.checkPass };
             requestLogin(loginParams).then(data => {
               this.logining = false;
               //NProgress.done();

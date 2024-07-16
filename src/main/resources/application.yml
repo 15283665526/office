@@ -2,9 +2,9 @@
 spring:
   #数据源配置
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/oa?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://rm-bp1t37vdwz904rj8npo.mysql.rds.aliyuncs.com:3306/office?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
     username: root
-    password: 978418
+    password: fy@123456
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
 
@@ -15,3 +15,7 @@ mybatis:
 server:
   #端口号
   port: 8081
+#logging:
+#  level: debug
+
+filePath: E:/oaFile/

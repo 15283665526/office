@@ -6,11 +6,11 @@
 
     <select id="userLogin" resultType="com.zjw.oa.entity.User" parameterType="com.zjw.oa.entity.User">
         SELECT
-        *
+            *
         FROM
-        user
+            user
         WHERE
-        userId = #{userId}
+            user_account = #{userAccount}
         and pwd = #{pwd}
     </select>
 

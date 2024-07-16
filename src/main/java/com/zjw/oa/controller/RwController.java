@@ -39,7 +39,7 @@ public class RwController {
     @RequestMapping(value = "/myRw")
     @ResponseBody
     @CrossOrigin
-    public JSONArray myRw(Rw rw) {
+    public JSONArray myRw(@RequestBody Rw rw) {
         List<Rw> list = rwService.myRw(rw);
         String jsonStr = JsonUtil.serializeDate(list);
         return JSON.parseArray(jsonStr);

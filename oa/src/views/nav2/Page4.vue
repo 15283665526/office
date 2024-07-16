@@ -33,7 +33,8 @@
 </template>
 
 <script>
-import { getDown,downFile,delFile } from '../../api/api'
+import { getDown,downFile,delFile,base } from '../../api/api'
+
 export default {
   data() {
     return {
@@ -64,7 +65,7 @@ export default {
       var fd = new FormData();
       fd.append('file', file);
       var xhr = new XMLHttpRequest();
-      xhr.open('POST', 'https://littlepros.mynatapp.cc/file/upload', true);
+      xhr.open('POST', 'http://localhost:8081/file/upload', true);
       xhr.upload.addEventListener('progress', function (e) {
         item.uploadPercentage = Math.round((e.loaded * 100) / e.total);
       }, false);
@@ -87,7 +88,7 @@ export default {
       // var obj = {
       //   fileName: row.fileName
       // }
-      window.location.href="https://littlepros.mynatapp.cc/file/download?"+'fileName='+row.fileName
+      window.location.href="http://localhost:8081/file/download?"+'fileName='+row.fileName
       // downFile(obj).then((res) => {
       //   if (res) {
       //     console.log("download===",res);

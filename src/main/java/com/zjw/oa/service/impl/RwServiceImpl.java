@@ -30,11 +30,11 @@ public class RwServiceImpl implements RwService {
     public List<Rw> myRw(Rw rw) {
 
         List<Rw> list = rwMapper.myRw(rw);
-        list.forEach(e->{
-            User u = new User();
-            u.setUserId(e.getFbUserId());
-            e.setFbUserName(userMapper.getUser(u).getUserName());
-        });
+//        list.forEach(e->{
+//            User u = new User();
+//            u.setUserId(e.getFbUserId());
+//            e.setFbUserName(userMapper.getUser(u).getUserName());
+//        });
         return list;
     }
 

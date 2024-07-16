@@ -3,21 +3,27 @@ package com.zjw.oa.controller;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+import com.zjw.oa.domain.OperateLog;
 import com.zjw.oa.entity.Dk;
 import com.zjw.oa.entity.Dto.UserDto;
 import com.zjw.oa.entity.Hys;
 import com.zjw.oa.entity.User;
+import com.zjw.oa.service.OperateLogService;
 import com.zjw.oa.service.UserService;
 import com.zjw.oa.util.JsonUtil;
+import lombok.extern.log4j.Log4j2;
 import org.apache.commons.httpclient.Header;
 import org.apache.commons.httpclient.HttpClient;
 import org.apache.commons.httpclient.NameValuePair;
 import org.apache.commons.httpclient.methods.PostMethod;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.io.IOException;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -26,13 +32,17 @@ import java.util.List;
  * @author dddz97
  * @date 2019-03-21 10:49:24
  */
+
 @RestController
 @EnableAutoConfiguration
 @RequestMapping(value = "/user")
 public class UserController {
 
+    private Logger logger = LoggerFactory.getLogger(UserController.class);
     @Resource
     private UserService userService;
+    @Resource
+    private OperateLogService operateLogService;
 
     /**
      * Description 登录，可以加入@CrossOrigin支持跨域。
@@ -46,13 +56,30 @@ public class UserController {
     @ResponseBody
     @CrossOrigin
     public JSONObject login(@RequestBody User user) {
+        logger.info("===>into login: {}",JSONObject.toJSONString(user));
         User user1 = userService.login(user);
+        OperateLog saveOperLog = new OperateLog();
+        saveOperLog.setOperate("登录");
+        saveOperLog.setCreateDate(new Date());
+
         if (user1 != null&&user1.getPermission()==1) {
+
+            saveOperLog.setUserId(String.valueOf(user1.getUserId()));
+            saveOperLog.setUserName(user1.getUserName());
+            saveOperLog.setUserAccount(user1.getUserAccount());
+            saveOperLog.setMsg("成功");
+            operateLogService.save(saveOperLog);
+
             return JSON.parseObject("{statusCode:200,user:{isAdmin:false,userName:\""+user1.getUserName()+"\"," +
                     "zw:\"" + user1.getZw() + "\"," +
                     "userId:\"" + user1.getUserId() + "\"," +
                     "permission:" + user1.getPermission() + "}}");
         }else if(user1 != null){
+
+            saveOperLog.setUserAccount(user.getUserAccount());
+            saveOperLog.setMsg("失败");
+            operateLogService.save(saveOperLog);
+
             return JSON.parseObject("{statusCode:200,user:{isAdmin:false,userName:\""+user1.getUserName()+"\"," +
                     "userId:\"" + user1.getUserId() + "\"," +
                     "zw:\"" + user1.getZw() + "\"," +

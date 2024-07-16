@@ -8,6 +8,7 @@ import user from './views/nav1/user.vue'
 import Page4 from './views/nav2/Page4.vue'
 import information from './views/nav2/information.vue'
 import Page6 from './views/nav3/Page6.vue'
+import Page7 from './views/nav3/Page7.vue'
 import echarts from './views/charts/echarts.vue'
 
 let routes = [
@@ -55,7 +56,8 @@ let routes = [
             { path: '/form', component: Form, name: '请假/审批' },
             { path: '/Page6', component: Page6, name: '日志系统' },
             { path: '/user', component: user, name: '会议管理' },
-            // { path: '/echarts', component: echarts, name: '系统管理' },
+            { path: '/echarts', component: echarts, name: '系统管理' },
+            { path: '/Page7', component: Page7, name: '操作日志' },
         ]
     },
     {

@@ -1,0 +1,312 @@
+2024-07-09 15:14:29 (908) [INFO ] [o.springframework.boot.StartupInfoLogger][50 ] - Starting OaApplication on admin with PID 10540 (E:\javaCopy\office\target\classes started by 24382 in E:\javaCopy\office)
+2024-07-09 15:14:29 (911) [INFO ] [o.springframework.boot.SpringApplication][675] - No active profile set, falling back to default profiles: default
+2024-07-09 15:14:29 (963) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-09 15:14:29 (964) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-09 15:14:31 (117) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][90 ] - Tomcat initialized with port(s): 8081 (http)
+2024-07-09 15:14:31 (133) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing ProtocolHandler ["http-nio-8081"]
+2024-07-09 15:14:31 (137) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting service [Tomcat]
+2024-07-09 15:14:31 (137) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2024-07-09 15:14:31 (145) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk1.8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\vmware17.1\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\HP\OMEN-Broadcast\Common;E:\nodejs14\;F:\Python\py3.12.4\Scripts\;F:\Python\py3.12.4\;C:\Users\24382\AppData\Local\Microsoft\WindowsApps;;D:\webstorm\WebStorm 2023.1.4\bin;;C:\Users\24382\AppData\Roaming\npm;.]
+2024-07-09 15:14:31 (194) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring embedded WebApplicationContext
+2024-07-09 15:14:31 (194) [INFO ] [o.s.b.w.s.c.ServletWebServerApplicationContext][296] - Root WebApplicationContext: initialization completed in 1230 ms
+2024-07-09 15:14:31 (453) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} inited
+2024-07-09 15:14:32 (426) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][171] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-07-09 15:14:32 (529) [INFO ] [o.s.b.a.w.s.WelcomePageHandlerMapping   ][61 ] - Adding welcome page template: index
+2024-07-09 15:14:32 (621) [INFO ] [o.s.b.d.a.OptionalLiveReloadServer      ][57 ] - LiveReload server is running on port 35729
+2024-07-09 15:14:32 (634) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting ProtocolHandler ["http-nio-8081"]
+2024-07-09 15:14:32 (646) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][204] - Tomcat started on port(s): 8081 (http) with context path ''
+2024-07-09 15:14:32 (646) [INFO ] [o.springframework.boot.StartupInfoLogger][59 ] - Started OaApplication in 3.129 seconds (JVM running for 4.346)
+2024-07-09 15:24:33 (706) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-09 15:24:33 (707) [INFO ] [o.s.web.servlet.FrameworkServlet        ][524] - Initializing Servlet 'dispatcherServlet'
+2024-07-09 15:24:33 (712) [INFO ] [o.s.web.servlet.FrameworkServlet        ][546] - Completed initialization in 5 ms
+2024-07-09 15:24:33 (895) [INFO ] [com.zjw.oa.controller.UserController    ][59 ] - ===>into login: {"permission":0,"pwd":"123456","sjUserId":0,"userAccount":"123456789@qq.com","userId":0}
+2024-07-09 15:25:36 (413) [INFO ] [com.zjw.oa.controller.UserController    ][59 ] - ===>into login: {"permission":0,"pwd":"123456","sjUserId":0,"userAccount":"123456789@qq.com","userId":0}
+2024-07-09 15:26:36 (719) [INFO ] [com.zjw.oa.controller.UserController    ][59 ] - ===>into login: {"permission":0,"pwd":"123456","sjUserId":0,"userAccount":"123456789@qq.com","userId":0}
+2024-07-09 15:28:59 (804) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-07-09 15:28:59 (807) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} closed
+2024-07-09 15:29:04 (533) [INFO ] [o.springframework.boot.StartupInfoLogger][50 ] - Starting OaApplication on admin with PID 13824 (E:\javaCopy\office\target\classes started by 24382 in E:\javaCopy\office)
+2024-07-09 15:29:04 (537) [INFO ] [o.springframework.boot.SpringApplication][675] - No active profile set, falling back to default profiles: default
+2024-07-09 15:29:04 (582) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-09 15:29:04 (582) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-09 15:29:05 (423) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][90 ] - Tomcat initialized with port(s): 8081 (http)
+2024-07-09 15:29:05 (444) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing ProtocolHandler ["http-nio-8081"]
+2024-07-09 15:29:05 (452) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting service [Tomcat]
+2024-07-09 15:29:05 (452) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2024-07-09 15:29:05 (456) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk1.8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\vmware17.1\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\HP\OMEN-Broadcast\Common;E:\nodejs14\;F:\Python\py3.12.4\Scripts\;F:\Python\py3.12.4\;C:\Users\24382\AppData\Local\Microsoft\WindowsApps;;D:\webstorm\WebStorm 2023.1.4\bin;;C:\Users\24382\AppData\Roaming\npm;.]
+2024-07-09 15:29:05 (507) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring embedded WebApplicationContext
+2024-07-09 15:29:05 (507) [INFO ] [o.s.b.w.s.c.ServletWebServerApplicationContext][296] - Root WebApplicationContext: initialization completed in 924 ms
+2024-07-09 15:29:05 (689) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} inited
+2024-07-09 15:29:06 (405) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][171] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-07-09 15:29:06 (465) [INFO ] [o.s.b.a.w.s.WelcomePageHandlerMapping   ][61 ] - Adding welcome page template: index
+2024-07-09 15:29:06 (530) [INFO ] [o.s.b.d.a.OptionalLiveReloadServer      ][57 ] - LiveReload server is running on port 35729
+2024-07-09 15:29:06 (546) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting ProtocolHandler ["http-nio-8081"]
+2024-07-09 15:29:06 (558) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][204] - Tomcat started on port(s): 8081 (http) with context path ''
+2024-07-09 15:29:06 (562) [INFO ] [o.springframework.boot.StartupInfoLogger][59 ] - Started OaApplication in 2.372 seconds (JVM running for 3.845)
+2024-07-09 15:30:12 (764) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-09 15:30:12 (769) [INFO ] [o.s.web.servlet.FrameworkServlet        ][524] - Initializing Servlet 'dispatcherServlet'
+2024-07-09 15:30:12 (769) [INFO ] [o.s.web.servlet.FrameworkServlet        ][546] - Completed initialization in 0 ms
+2024-07-09 15:30:12 (859) [INFO ] [com.zjw.oa.controller.UserController    ][59 ] - ===>into login: {"permission":0,"pwd":"123456","sjUserId":0,"userAccount":"123456789@qq.com","userId":0}
+2024-07-09 15:31:39 (099) [INFO ] [com.zjw.oa.controller.UserController    ][59 ] - ===>into login: {"permission":0,"pwd":"123456","sjUserId":0,"userAccount":"123456789@qq.com","userId":0}
+2024-07-09 15:32:53 (682) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-07-09 15:32:53 (684) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} closed
+2024-07-09 15:33:16 (058) [INFO ] [o.springframework.boot.StartupInfoLogger][50 ] - Starting OaApplication on admin with PID 26700 (E:\javaCopy\office\target\classes started by 24382 in E:\javaCopy\office)
+2024-07-09 15:33:16 (062) [INFO ] [o.springframework.boot.SpringApplication][675] - No active profile set, falling back to default profiles: default
+2024-07-09 15:33:16 (085) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-09 15:33:16 (085) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-09 15:33:16 (783) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][90 ] - Tomcat initialized with port(s): 8081 (http)
+2024-07-09 15:33:16 (789) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing ProtocolHandler ["http-nio-8081"]
+2024-07-09 15:33:16 (793) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting service [Tomcat]
+2024-07-09 15:33:16 (793) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2024-07-09 15:33:16 (797) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk1.8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\vmware17.1\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\HP\OMEN-Broadcast\Common;E:\nodejs14\;F:\Python\py3.12.4\Scripts\;F:\Python\py3.12.4\;C:\Users\24382\AppData\Local\Microsoft\WindowsApps;;D:\webstorm\WebStorm 2023.1.4\bin;;C:\Users\24382\AppData\Roaming\npm;.]
+2024-07-09 15:33:16 (843) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring embedded WebApplicationContext
+2024-07-09 15:33:16 (843) [INFO ] [o.s.b.w.s.c.ServletWebServerApplicationContext][296] - Root WebApplicationContext: initialization completed in 758 ms
+2024-07-09 15:33:16 (993) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} inited
+2024-07-09 15:33:17 (663) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][171] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-07-09 15:33:17 (732) [INFO ] [o.s.b.a.w.s.WelcomePageHandlerMapping   ][61 ] - Adding welcome page template: index
+2024-07-09 15:33:17 (800) [INFO ] [o.s.b.d.a.OptionalLiveReloadServer      ][57 ] - LiveReload server is running on port 35729
+2024-07-09 15:33:17 (816) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting ProtocolHandler ["http-nio-8081"]
+2024-07-09 15:33:17 (828) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][204] - Tomcat started on port(s): 8081 (http) with context path ''
+2024-07-09 15:33:17 (828) [INFO ] [o.springframework.boot.StartupInfoLogger][59 ] - Started OaApplication in 1.983 seconds (JVM running for 3.022)
+2024-07-09 15:33:36 (106) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-09 15:33:36 (107) [INFO ] [o.s.web.servlet.FrameworkServlet        ][524] - Initializing Servlet 'dispatcherServlet'
+2024-07-09 15:33:36 (112) [INFO ] [o.s.web.servlet.FrameworkServlet        ][546] - Completed initialization in 5 ms
+2024-07-09 15:33:36 (240) [INFO ] [com.zjw.oa.controller.UserController    ][62 ] - ===>into login: {"permission":0,"pwd":"123456","sjUserId":0,"userAccount":"123456789@qq.com","userId":0}
+2024-07-09 15:35:04 (864) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-07-09 15:35:04 (866) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} closed
+2024-07-09 15:35:08 (770) [INFO ] [o.springframework.boot.StartupInfoLogger][50 ] - Starting OaApplication on admin with PID 6996 (E:\javaCopy\office\target\classes started by 24382 in E:\javaCopy\office)
+2024-07-09 15:35:08 (770) [INFO ] [o.springframework.boot.SpringApplication][675] - No active profile set, falling back to default profiles: default
+2024-07-09 15:35:08 (799) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-09 15:35:08 (799) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-09 15:35:09 (477) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][90 ] - Tomcat initialized with port(s): 8081 (http)
+2024-07-09 15:35:09 (484) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing ProtocolHandler ["http-nio-8081"]
+2024-07-09 15:35:09 (485) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting service [Tomcat]
+2024-07-09 15:35:09 (485) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2024-07-09 15:35:09 (489) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk1.8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\vmware17.1\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\HP\OMEN-Broadcast\Common;E:\nodejs14\;F:\Python\py3.12.4\Scripts\;F:\Python\py3.12.4\;C:\Users\24382\AppData\Local\Microsoft\WindowsApps;;D:\webstorm\WebStorm 2023.1.4\bin;;C:\Users\24382\AppData\Roaming\npm;.]
+2024-07-09 15:35:09 (524) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring embedded WebApplicationContext
+2024-07-09 15:35:09 (524) [INFO ] [o.s.b.w.s.c.ServletWebServerApplicationContext][296] - Root WebApplicationContext: initialization completed in 725 ms
+2024-07-09 15:35:09 (674) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} inited
+2024-07-09 15:35:11 (382) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][171] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-07-09 15:35:11 (441) [INFO ] [o.s.b.a.w.s.WelcomePageHandlerMapping   ][61 ] - Adding welcome page template: index
+2024-07-09 15:35:11 (500) [INFO ] [o.s.b.d.a.OptionalLiveReloadServer      ][57 ] - LiveReload server is running on port 35729
+2024-07-09 15:35:11 (514) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting ProtocolHandler ["http-nio-8081"]
+2024-07-09 15:35:11 (524) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][204] - Tomcat started on port(s): 8081 (http) with context path ''
+2024-07-09 15:35:11 (525) [INFO ] [o.springframework.boot.StartupInfoLogger][59 ] - Started OaApplication in 2.981 seconds (JVM running for 4.105)
+2024-07-09 15:35:38 (517) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-09 15:35:38 (517) [INFO ] [o.s.web.servlet.FrameworkServlet        ][524] - Initializing Servlet 'dispatcherServlet'
+2024-07-09 15:35:38 (525) [INFO ] [o.s.web.servlet.FrameworkServlet        ][546] - Completed initialization in 8 ms
+2024-07-09 15:35:38 (592) [INFO ] [com.zjw.oa.controller.UserController    ][59 ] - ===>into login: {"permission":0,"pwd":"123456","sjUserId":0,"userAccount":"123456789@qq.com","userId":0}
+2024-07-09 15:36:33 (254) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-07-09 15:36:33 (256) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} closed
+2024-07-09 15:36:37 (110) [INFO ] [o.springframework.boot.StartupInfoLogger][50 ] - Starting OaApplication on admin with PID 34140 (E:\javaCopy\office\target\classes started by 24382 in E:\javaCopy\office)
+2024-07-09 15:36:37 (114) [INFO ] [o.springframework.boot.SpringApplication][675] - No active profile set, falling back to default profiles: default
+2024-07-09 15:36:37 (138) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-09 15:36:37 (138) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-09 15:36:37 (786) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][90 ] - Tomcat initialized with port(s): 8081 (http)
+2024-07-09 15:36:37 (790) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing ProtocolHandler ["http-nio-8081"]
+2024-07-09 15:36:37 (794) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting service [Tomcat]
+2024-07-09 15:36:37 (794) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2024-07-09 15:36:37 (798) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk1.8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\vmware17.1\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\HP\OMEN-Broadcast\Common;E:\nodejs14\;F:\Python\py3.12.4\Scripts\;F:\Python\py3.12.4\;C:\Users\24382\AppData\Local\Microsoft\WindowsApps;;D:\webstorm\WebStorm 2023.1.4\bin;;C:\Users\24382\AppData\Roaming\npm;.]
+2024-07-09 15:36:37 (834) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring embedded WebApplicationContext
+2024-07-09 15:36:37 (834) [INFO ] [o.s.b.w.s.c.ServletWebServerApplicationContext][296] - Root WebApplicationContext: initialization completed in 696 ms
+2024-07-09 15:36:38 (005) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} inited
+2024-07-09 15:36:38 (739) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][171] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-07-09 15:36:38 (800) [INFO ] [o.s.b.a.w.s.WelcomePageHandlerMapping   ][61 ] - Adding welcome page template: index
+2024-07-09 15:36:38 (860) [INFO ] [o.s.b.d.a.OptionalLiveReloadServer      ][57 ] - LiveReload server is running on port 35729
+2024-07-09 15:36:38 (874) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting ProtocolHandler ["http-nio-8081"]
+2024-07-09 15:36:38 (884) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][204] - Tomcat started on port(s): 8081 (http) with context path ''
+2024-07-09 15:36:38 (884) [INFO ] [o.springframework.boot.StartupInfoLogger][59 ] - Started OaApplication in 1.98 seconds (JVM running for 3.223)
+2024-07-09 15:37:06 (657) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-09 15:37:06 (657) [INFO ] [o.s.web.servlet.FrameworkServlet        ][524] - Initializing Servlet 'dispatcherServlet'
+2024-07-09 15:37:06 (661) [INFO ] [o.s.web.servlet.FrameworkServlet        ][546] - Completed initialization in 4 ms
+2024-07-09 15:37:06 (726) [INFO ] [com.zjw.oa.controller.UserController    ][59 ] - ===>into login: {"permission":0,"pwd":"123456","sjUserId":0,"userAccount":"123456789@qq.com","userId":0}
+2024-07-09 15:39:09 (308) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-07-09 15:39:09 (314) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} closed
+2024-07-09 15:39:11 (820) [INFO ] [o.springframework.boot.StartupInfoLogger][50 ] - Starting OaApplication on admin with PID 29292 (E:\javaCopy\office\target\classes started by 24382 in E:\javaCopy\office)
+2024-07-09 15:39:11 (820) [INFO ] [o.springframework.boot.SpringApplication][675] - No active profile set, falling back to default profiles: default
+2024-07-09 15:39:11 (844) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-09 15:39:11 (844) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-09 15:39:12 (576) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][90 ] - Tomcat initialized with port(s): 8081 (http)
+2024-07-09 15:39:12 (584) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing ProtocolHandler ["http-nio-8081"]
+2024-07-09 15:39:12 (588) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting service [Tomcat]
+2024-07-09 15:39:12 (588) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2024-07-09 15:39:12 (592) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk1.8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\vmware17.1\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\HP\OMEN-Broadcast\Common;E:\nodejs14\;F:\Python\py3.12.4\Scripts\;F:\Python\py3.12.4\;C:\Users\24382\AppData\Local\Microsoft\WindowsApps;;D:\webstorm\WebStorm 2023.1.4\bin;;C:\Users\24382\AppData\Roaming\npm;.]
+2024-07-09 15:39:12 (640) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring embedded WebApplicationContext
+2024-07-09 15:39:12 (640) [INFO ] [o.s.b.w.s.c.ServletWebServerApplicationContext][296] - Root WebApplicationContext: initialization completed in 780 ms
+2024-07-09 15:39:12 (796) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} inited
+2024-07-09 15:39:13 (522) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][171] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-07-09 15:39:13 (578) [INFO ] [o.s.b.a.w.s.WelcomePageHandlerMapping   ][61 ] - Adding welcome page template: index
+2024-07-09 15:39:13 (638) [INFO ] [o.s.b.d.a.OptionalLiveReloadServer      ][57 ] - LiveReload server is running on port 35729
+2024-07-09 15:39:13 (654) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting ProtocolHandler ["http-nio-8081"]
+2024-07-09 15:39:13 (664) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][204] - Tomcat started on port(s): 8081 (http) with context path ''
+2024-07-09 15:39:13 (666) [INFO ] [o.springframework.boot.StartupInfoLogger][59 ] - Started OaApplication in 2.069 seconds (JVM running for 3.25)
+2024-07-09 15:47:08 (241) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-09 15:47:08 (244) [INFO ] [o.s.web.servlet.FrameworkServlet        ][524] - Initializing Servlet 'dispatcherServlet'
+2024-07-09 15:47:08 (245) [INFO ] [o.s.web.servlet.FrameworkServlet        ][546] - Completed initialization in 1 ms
+2024-07-09 15:47:08 (317) [INFO ] [com.zjw.oa.controller.UserController    ][59 ] - ===>into login: {"permission":0,"pwd":"123456","sjUserId":0,"userAccount":"123456789@qq.com","userId":0}
+2024-07-09 15:49:17 (595) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-07-09 15:49:17 (595) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} closed
+2024-07-09 15:49:21 (478) [INFO ] [o.springframework.boot.StartupInfoLogger][50 ] - Starting OaApplication on admin with PID 22112 (E:\javaCopy\office\target\classes started by 24382 in E:\javaCopy\office)
+2024-07-09 15:49:21 (482) [INFO ] [o.springframework.boot.SpringApplication][675] - No active profile set, falling back to default profiles: default
+2024-07-09 15:49:21 (506) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-09 15:49:21 (506) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-09 15:49:22 (162) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][90 ] - Tomcat initialized with port(s): 8081 (http)
+2024-07-09 15:49:22 (170) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing ProtocolHandler ["http-nio-8081"]
+2024-07-09 15:49:22 (170) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting service [Tomcat]
+2024-07-09 15:49:22 (170) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2024-07-09 15:49:22 (174) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk1.8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\vmware17.1\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\HP\OMEN-Broadcast\Common;E:\nodejs14\;F:\Python\py3.12.4\Scripts\;F:\Python\py3.12.4\;C:\Users\24382\AppData\Local\Microsoft\WindowsApps;;D:\webstorm\WebStorm 2023.1.4\bin;;C:\Users\24382\AppData\Roaming\npm;.]
+2024-07-09 15:49:22 (214) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring embedded WebApplicationContext
+2024-07-09 15:49:22 (218) [INFO ] [o.s.b.w.s.c.ServletWebServerApplicationContext][296] - Root WebApplicationContext: initialization completed in 708 ms
+2024-07-09 15:49:22 (368) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} inited
+2024-07-09 15:49:23 (020) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][171] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-07-09 15:49:23 (078) [INFO ] [o.s.b.a.w.s.WelcomePageHandlerMapping   ][61 ] - Adding welcome page template: index
+2024-07-09 15:49:23 (138) [INFO ] [o.s.b.d.a.OptionalLiveReloadServer      ][57 ] - LiveReload server is running on port 35729
+2024-07-09 15:49:23 (150) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting ProtocolHandler ["http-nio-8081"]
+2024-07-09 15:49:23 (158) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][204] - Tomcat started on port(s): 8081 (http) with context path ''
+2024-07-09 15:49:23 (162) [INFO ] [o.springframework.boot.StartupInfoLogger][59 ] - Started OaApplication in 1.896 seconds (JVM running for 3.001)
+2024-07-09 15:54:00 (765) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-09 15:54:00 (765) [INFO ] [o.s.web.servlet.FrameworkServlet        ][524] - Initializing Servlet 'dispatcherServlet'
+2024-07-09 15:54:00 (768) [INFO ] [o.s.web.servlet.FrameworkServlet        ][546] - Completed initialization in 3 ms
+2024-07-09 15:54:00 (837) [INFO ] [com.zjw.oa.controller.UserController    ][59 ] - ===>into login: {"permission":0,"pwd":"123456","sjUserId":0,"userAccount":"123456789@qq.com","userId":0}
+2024-07-09 16:28:01 (598) [INFO ] [com.zjw.oa.controller.UserController    ][59 ] - ===>into login: {"permission":0,"pwd":"123456","sjUserId":0,"userAccount":"123456789@qq.com","userId":0}
+2024-07-09 16:48:06 (067) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-07-09 16:48:06 (071) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} closed
+2024-07-09 16:48:12 (575) [INFO ] [o.springframework.boot.StartupInfoLogger][50 ] - Starting OaApplication on admin with PID 35100 (E:\javaCopy\office\target\classes started by 24382 in E:\javaCopy\office)
+2024-07-09 16:48:12 (578) [INFO ] [o.springframework.boot.SpringApplication][675] - No active profile set, falling back to default profiles: default
+2024-07-09 16:48:12 (635) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-09 16:48:12 (635) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-09 16:48:13 (493) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][90 ] - Tomcat initialized with port(s): 8081 (http)
+2024-07-09 16:48:13 (511) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing ProtocolHandler ["http-nio-8081"]
+2024-07-09 16:48:13 (518) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting service [Tomcat]
+2024-07-09 16:48:13 (518) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2024-07-09 16:48:13 (523) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk1.8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\vmware17.1\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\HP\OMEN-Broadcast\Common;E:\nodejs14\;F:\Python\py3.12.4\Scripts\;F:\Python\py3.12.4\;C:\Users\24382\AppData\Local\Microsoft\WindowsApps;;D:\webstorm\WebStorm 2023.1.4\bin;;C:\Users\24382\AppData\Roaming\npm;.]
+2024-07-09 16:48:13 (581) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring embedded WebApplicationContext
+2024-07-09 16:48:13 (581) [INFO ] [o.s.b.w.s.c.ServletWebServerApplicationContext][296] - Root WebApplicationContext: initialization completed in 946 ms
+2024-07-09 16:48:13 (776) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} inited
+2024-07-09 16:48:15 (056) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][171] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-07-09 16:48:15 (119) [INFO ] [o.s.b.a.w.s.WelcomePageHandlerMapping   ][61 ] - Adding welcome page template: index
+2024-07-09 16:48:15 (182) [INFO ] [o.s.b.d.a.OptionalLiveReloadServer      ][57 ] - LiveReload server is running on port 35729
+2024-07-09 16:48:15 (197) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting ProtocolHandler ["http-nio-8081"]
+2024-07-09 16:48:15 (208) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][204] - Tomcat started on port(s): 8081 (http) with context path ''
+2024-07-09 16:48:15 (211) [INFO ] [o.springframework.boot.StartupInfoLogger][59 ] - Started OaApplication in 2.875 seconds (JVM running for 3.795)
+2024-07-09 16:49:10 (379) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-07-09 16:49:10 (382) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} closed
+2024-07-09 16:49:14 (300) [INFO ] [o.springframework.boot.StartupInfoLogger][50 ] - Starting OaApplication on admin with PID 8724 (E:\javaCopy\office\target\classes started by 24382 in E:\javaCopy\office)
+2024-07-09 16:49:14 (301) [INFO ] [o.springframework.boot.SpringApplication][675] - No active profile set, falling back to default profiles: default
+2024-07-09 16:49:14 (329) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-09 16:49:14 (329) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-09 16:49:14 (975) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][90 ] - Tomcat initialized with port(s): 8081 (http)
+2024-07-09 16:49:14 (981) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing ProtocolHandler ["http-nio-8081"]
+2024-07-09 16:49:14 (985) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting service [Tomcat]
+2024-07-09 16:49:14 (985) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2024-07-09 16:49:14 (991) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk1.8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\vmware17.1\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\HP\OMEN-Broadcast\Common;E:\nodejs14\;F:\Python\py3.12.4\Scripts\;F:\Python\py3.12.4\;C:\Users\24382\AppData\Local\Microsoft\WindowsApps;;D:\webstorm\WebStorm 2023.1.4\bin;;C:\Users\24382\AppData\Roaming\npm;.]
+2024-07-09 16:49:15 (025) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring embedded WebApplicationContext
+2024-07-09 16:49:15 (025) [INFO ] [o.s.b.w.s.c.ServletWebServerApplicationContext][296] - Root WebApplicationContext: initialization completed in 696 ms
+2024-07-09 16:49:15 (126) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} inited
+2024-07-09 16:49:16 (057) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][171] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-07-09 16:49:16 (135) [INFO ] [o.s.b.a.w.s.WelcomePageHandlerMapping   ][61 ] - Adding welcome page template: index
+2024-07-09 16:49:16 (200) [INFO ] [o.s.b.d.a.OptionalLiveReloadServer      ][57 ] - LiveReload server is running on port 35729
+2024-07-09 16:49:16 (217) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting ProtocolHandler ["http-nio-8081"]
+2024-07-09 16:49:16 (229) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][204] - Tomcat started on port(s): 8081 (http) with context path ''
+2024-07-09 16:49:16 (231) [INFO ] [o.springframework.boot.StartupInfoLogger][59 ] - Started OaApplication in 2.152 seconds (JVM running for 3.326)
+2024-07-09 16:49:34 (091) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-09 16:49:34 (091) [INFO ] [o.s.web.servlet.FrameworkServlet        ][524] - Initializing Servlet 'dispatcherServlet'
+2024-07-09 16:49:34 (095) [INFO ] [o.s.web.servlet.FrameworkServlet        ][546] - Completed initialization in 4 ms
+2024-07-09 16:54:46 (133) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-07-09 16:54:46 (135) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} closed
+2024-07-09 16:54:49 (769) [INFO ] [o.springframework.boot.StartupInfoLogger][50 ] - Starting OaApplication on admin with PID 36764 (E:\javaCopy\office\target\classes started by 24382 in E:\javaCopy\office)
+2024-07-09 16:54:49 (769) [INFO ] [o.springframework.boot.SpringApplication][675] - No active profile set, falling back to default profiles: default
+2024-07-09 16:54:49 (795) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-09 16:54:49 (797) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-09 16:54:50 (435) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][90 ] - Tomcat initialized with port(s): 8081 (http)
+2024-07-09 16:54:50 (439) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing ProtocolHandler ["http-nio-8081"]
+2024-07-09 16:54:50 (445) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting service [Tomcat]
+2024-07-09 16:54:50 (445) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2024-07-09 16:54:50 (447) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk1.8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\vmware17.1\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\HP\OMEN-Broadcast\Common;E:\nodejs14\;F:\Python\py3.12.4\Scripts\;F:\Python\py3.12.4\;C:\Users\24382\AppData\Local\Microsoft\WindowsApps;;D:\webstorm\WebStorm 2023.1.4\bin;;C:\Users\24382\AppData\Roaming\npm;.]
+2024-07-09 16:54:50 (479) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring embedded WebApplicationContext
+2024-07-09 16:54:50 (479) [INFO ] [o.s.b.w.s.c.ServletWebServerApplicationContext][296] - Root WebApplicationContext: initialization completed in 682 ms
+2024-07-09 16:54:50 (635) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} inited
+2024-07-09 16:54:51 (335) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][171] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-07-09 16:54:51 (395) [INFO ] [o.s.b.a.w.s.WelcomePageHandlerMapping   ][61 ] - Adding welcome page template: index
+2024-07-09 16:54:51 (451) [INFO ] [o.s.b.d.a.OptionalLiveReloadServer      ][57 ] - LiveReload server is running on port 35729
+2024-07-09 16:54:51 (467) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting ProtocolHandler ["http-nio-8081"]
+2024-07-09 16:54:51 (475) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][204] - Tomcat started on port(s): 8081 (http) with context path ''
+2024-07-09 16:54:51 (475) [INFO ] [o.springframework.boot.StartupInfoLogger][59 ] - Started OaApplication in 1.926 seconds (JVM running for 3.115)
+2024-07-09 16:54:59 (147) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-09 16:54:59 (147) [INFO ] [o.s.web.servlet.FrameworkServlet        ][524] - Initializing Servlet 'dispatcherServlet'
+2024-07-09 16:54:59 (151) [INFO ] [o.s.web.servlet.FrameworkServlet        ][546] - Completed initialization in 4 ms
+2024-07-09 16:56:13 (020) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-07-09 16:56:13 (020) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} closed
+2024-07-09 16:56:17 (636) [INFO ] [o.springframework.boot.StartupInfoLogger][50 ] - Starting OaApplication on admin with PID 38860 (E:\javaCopy\office\target\classes started by 24382 in E:\javaCopy\office)
+2024-07-09 16:56:17 (636) [INFO ] [o.springframework.boot.SpringApplication][675] - No active profile set, falling back to default profiles: default
+2024-07-09 16:56:17 (660) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-09 16:56:17 (660) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-09 16:56:18 (413) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][90 ] - Tomcat initialized with port(s): 8081 (http)
+2024-07-09 16:56:18 (419) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing ProtocolHandler ["http-nio-8081"]
+2024-07-09 16:56:18 (425) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting service [Tomcat]
+2024-07-09 16:56:18 (425) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2024-07-09 16:56:18 (427) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk1.8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\vmware17.1\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\HP\OMEN-Broadcast\Common;E:\nodejs14\;F:\Python\py3.12.4\Scripts\;F:\Python\py3.12.4\;C:\Users\24382\AppData\Local\Microsoft\WindowsApps;;D:\webstorm\WebStorm 2023.1.4\bin;;C:\Users\24382\AppData\Roaming\npm;.]
+2024-07-09 16:56:18 (465) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring embedded WebApplicationContext
+2024-07-09 16:56:18 (465) [INFO ] [o.s.b.w.s.c.ServletWebServerApplicationContext][296] - Root WebApplicationContext: initialization completed in 805 ms
+2024-07-09 16:56:18 (632) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} inited
+2024-07-09 16:56:19 (419) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][171] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-07-09 16:56:19 (523) [INFO ] [o.s.b.a.w.s.WelcomePageHandlerMapping   ][61 ] - Adding welcome page template: index
+2024-07-09 16:56:19 (642) [INFO ] [o.s.b.d.a.OptionalLiveReloadServer      ][57 ] - LiveReload server is running on port 35729
+2024-07-09 16:56:19 (673) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting ProtocolHandler ["http-nio-8081"]
+2024-07-09 16:56:19 (698) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][204] - Tomcat started on port(s): 8081 (http) with context path ''
+2024-07-09 16:56:19 (700) [INFO ] [o.springframework.boot.StartupInfoLogger][59 ] - Started OaApplication in 2.293 seconds (JVM running for 3.662)
+2024-07-09 16:56:19 (738) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-09 16:56:19 (738) [INFO ] [o.s.web.servlet.FrameworkServlet        ][524] - Initializing Servlet 'dispatcherServlet'
+2024-07-09 16:56:19 (742) [INFO ] [o.s.web.servlet.FrameworkServlet        ][546] - Completed initialization in 4 ms
+2024-07-09 17:02:14 (094) [INFO ] [c.zjw.oa.controller.OperateLogController][41 ] - =====>转换时间：Tue Jul 09 00:00:00 GMT+08:00 2024
+2024-07-09 17:02:40 (577) [INFO ] [c.zjw.oa.controller.OperateLogController][41 ] - =====>转换时间：Tue Jul 09 00:00:00 GMT+08:00 2024
+2024-07-09 17:03:22 (091) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-07-09 17:03:22 (096) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} closed
+2024-07-09 17:03:26 (026) [INFO ] [o.springframework.boot.StartupInfoLogger][50 ] - Starting OaApplication on admin with PID 37256 (E:\javaCopy\office\target\classes started by 24382 in E:\javaCopy\office)
+2024-07-09 17:03:26 (026) [INFO ] [o.springframework.boot.SpringApplication][675] - No active profile set, falling back to default profiles: default
+2024-07-09 17:03:26 (086) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-09 17:03:26 (086) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-09 17:03:26 (907) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][90 ] - Tomcat initialized with port(s): 8081 (http)
+2024-07-09 17:03:26 (915) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing ProtocolHandler ["http-nio-8081"]
+2024-07-09 17:03:26 (920) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting service [Tomcat]
+2024-07-09 17:03:26 (920) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2024-07-09 17:03:26 (925) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk1.8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\vmware17.1\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\HP\OMEN-Broadcast\Common;E:\nodejs14\;F:\Python\py3.12.4\Scripts\;F:\Python\py3.12.4\;C:\Users\24382\AppData\Local\Microsoft\WindowsApps;;D:\webstorm\WebStorm 2023.1.4\bin;;C:\Users\24382\AppData\Roaming\npm;.]
+2024-07-09 17:03:26 (964) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring embedded WebApplicationContext
+2024-07-09 17:03:26 (964) [INFO ] [o.s.b.w.s.c.ServletWebServerApplicationContext][296] - Root WebApplicationContext: initialization completed in 878 ms
+2024-07-09 17:03:27 (124) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} inited
+2024-07-09 17:03:27 (799) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][171] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-07-09 17:03:27 (861) [INFO ] [o.s.b.a.w.s.WelcomePageHandlerMapping   ][61 ] - Adding welcome page template: index
+2024-07-09 17:03:27 (921) [INFO ] [o.s.b.d.a.OptionalLiveReloadServer      ][57 ] - LiveReload server is running on port 35729
+2024-07-09 17:03:27 (934) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting ProtocolHandler ["http-nio-8081"]
+2024-07-09 17:03:27 (948) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][204] - Tomcat started on port(s): 8081 (http) with context path ''
+2024-07-09 17:03:27 (950) [INFO ] [o.springframework.boot.StartupInfoLogger][59 ] - Started OaApplication in 2.145 seconds (JVM running for 3.198)
+2024-07-09 17:03:31 (797) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-09 17:03:31 (797) [INFO ] [o.s.web.servlet.FrameworkServlet        ][524] - Initializing Servlet 'dispatcherServlet'
+2024-07-09 17:03:31 (802) [INFO ] [o.s.web.servlet.FrameworkServlet        ][546] - Completed initialization in 5 ms
+2024-07-09 17:03:31 (821) [INFO ] [c.zjw.oa.controller.OperateLogController][41 ] - =====>转换时间：Tue Jul 09 00:00:00 GMT+08:00 2024
+2024-07-09 17:04:04 (763) [INFO ] [com.zjw.oa.controller.UserController    ][59 ] - ===>into login: {"permission":0,"pwd":"123456","sjUserId":0,"userAccount":"123456789@qq.com","userId":0}
+2024-07-09 17:06:31 (570) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-07-09 17:06:31 (576) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} closed
+2024-07-09 17:06:35 (355) [INFO ] [o.springframework.boot.StartupInfoLogger][50 ] - Starting OaApplication on admin with PID 34172 (E:\javaCopy\office\target\classes started by 24382 in E:\javaCopy\office)
+2024-07-09 17:06:35 (357) [INFO ] [o.springframework.boot.SpringApplication][675] - No active profile set, falling back to default profiles: default
+2024-07-09 17:06:35 (417) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-09 17:06:35 (417) [INFO ] [o.s.boot.logging.DeferredLog            ][227] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-09 17:06:36 (009) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][90 ] - Tomcat initialized with port(s): 8081 (http)
+2024-07-09 17:06:36 (017) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing ProtocolHandler ["http-nio-8081"]
+2024-07-09 17:06:36 (021) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting service [Tomcat]
+2024-07-09 17:06:36 (021) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2024-07-09 17:06:36 (026) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk1.8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\vmware17.1\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\HP\OMEN-Broadcast\Common;E:\nodejs14\;F:\Python\py3.12.4\Scripts\;F:\Python\py3.12.4\;C:\Users\24382\AppData\Local\Microsoft\WindowsApps;;D:\webstorm\WebStorm 2023.1.4\bin;;C:\Users\24382\AppData\Roaming\npm;.]
+2024-07-09 17:06:36 (061) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring embedded WebApplicationContext
+2024-07-09 17:06:36 (061) [INFO ] [o.s.b.w.s.c.ServletWebServerApplicationContext][296] - Root WebApplicationContext: initialization completed in 644 ms
+2024-07-09 17:06:36 (219) [INFO ] [c.a.druid.support.logging.Log4j2Impl    ][106] - {dataSource-1} inited
+2024-07-09 17:06:37 (455) [INFO ] [o.s.s.c.ExecutorConfigurationSupport    ][171] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-07-09 17:06:37 (512) [INFO ] [o.s.b.a.w.s.WelcomePageHandlerMapping   ][61 ] - Adding welcome page template: index
+2024-07-09 17:06:37 (572) [INFO ] [o.s.b.d.a.OptionalLiveReloadServer      ][57 ] - LiveReload server is running on port 35729
+2024-07-09 17:06:37 (583) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Starting ProtocolHandler ["http-nio-8081"]
+2024-07-09 17:06:37 (595) [INFO ] [o.s.b.w.embedded.tomcat.TomcatWebServer ][204] - Tomcat started on port(s): 8081 (http) with context path ''
+2024-07-09 17:06:37 (595) [INFO ] [o.springframework.boot.StartupInfoLogger][59 ] - Started OaApplication in 2.445 seconds (JVM running for 3.535)
+2024-07-09 17:08:39 (688) [INFO ] [org.apache.juli.logging.DirectJDKLog    ][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-09 17:08:39 (688) [INFO ] [o.s.web.servlet.FrameworkServlet        ][524] - Initializing Servlet 'dispatcherServlet'
+2024-07-09 17:08:39 (692) [INFO ] [o.s.web.servlet.FrameworkServlet        ][546] - Completed initialization in 4 ms
+2024-07-09 17:08:39 (714) [INFO ] [c.zjw.oa.controller.OperateLogController][40 ] - =====>默认时间：2024-07-09
+2024-07-09 17:23:01 (717) [INFO ] [com.zjw.oa.controller.UserController    ][59 ] - ===>into login: {"permission":0,"pwd":"123456","sjUserId":0,"userAccount":"123456789@qq.com","userId":0}
+2024-07-09 17:23:03 (482) [INFO ] [c.zjw.oa.controller.OperateLogController][40 ] - =====>默认时间：2024-07-09

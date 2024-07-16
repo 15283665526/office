@@ -7,6 +7,7 @@ import com.zjw.oa.entity.MyFile;
 import com.zjw.oa.util.JsonUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
@@ -21,7 +22,8 @@ import java.util.List;
 @RequestMapping(value = "/file")
 public class FileController {
     private static final Logger log = LoggerFactory.getLogger(FileController.class);
-    private static String FILE_PATH = "D:/test/";
+    @Value("${filePath}")
+    private String FILE_PATH;
 
     @RequestMapping(value = "/upload")
     @ResponseBody
@@ -150,6 +152,7 @@ public class FileController {
     @ResponseBody
     @CrossOrigin
     public JSONArray fileList(String fileName) {
+        log.info("====>查询当前位置{}的文件",FILE_PATH);
         File file = new File(FILE_PATH);
         File[] fileList = file.listFiles();
 

@@ -2,6 +2,7 @@ import axios from 'axios';
 
 let base = 'http://localhost:8081/';
 
+
 export const requestLogin = params => { return axios.post(`${base}/user/login`, params).then(res => res.data); };
 //公告
 export const getGg = params => { return axios.post(`${base}/gsxx/gsgg`, params).then(res => res.data); };
@@ -47,3 +48,6 @@ export const getHys = params => { return axios.get(`${base}/user/getHysList`, { 
 export const editHys = params => { return axios.get(`${base}/user/updateHys`, { params: params }); };
 //发送参会短信
 export const sendMessage = params => { return axios.post(`${base}/user/kh`,  params); };
+
+//获取操作日志
+export const getOperLog = params => { return axios.get(`${base}/operateLog/list`, { params: params }); };
